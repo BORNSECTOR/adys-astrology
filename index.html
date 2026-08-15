@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADYS AstroJourney — Healing People's Lives | Crystals & Astrology</title>
+<meta name="description" content="Discover the power of natural crystals and personalized astrology guidance. Shop authentic crystals and book consultations with ADYS AstroJourney.">
+<link rel="icon" type="image/png" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Poppins:wght@300;400;500;600;700&family=Allura&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ═══════════ 01 · ANNOUNCEMENT BAR ═══════════ -->
+<div class="announce-bar">
+  <div class="container announce-inner">
+    <span class="announce-spacer" aria-hidden="true"></span>
+    <p class="announce-text">✦ &nbsp;Healing People's Lives&nbsp; ✦</p>
+    <div class="announce-social">
+      <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg><span>Instagram</span></a>
+      <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.3-1.5 1.6-1.5h1.3V4.9c-.3 0-1.1-.1-2.1-.1-2.1 0-3.6 1.3-3.6 3.7V11H8.2v3h2.5v7h2.8z"/></svg><span>Facebook</span></a>
+      <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.5 8.8H3.7V20h2.8V8.8zM5.1 3.6a1.66 1.66 0 1 0 0 3.3 1.66 1.66 0 0 0 0-3.3zM20.3 13.4c0-3.1-1.7-4.8-4-4.8-1.8 0-2.7 1-3.1 1.7v-1.5H10.4V20h2.8v-5.9c0-1.5.6-2.5 1.9-2.5 1.2 0 1.7.9 1.7 2.5V20h2.8v-6.6z"/></svg><span>LinkedIn</span></a>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ 02 · HEADER ═══════════ -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#" class="brand" aria-label="ADYS AstroJourney home">
+      <img src="images/logo-light.png" alt="ADYS AstroJourney — Healing People's Lives" class="brand-logo">
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <a href="#" class="nav-link active" aria-current="page">Home</a>
+      <a href="#featured" class="nav-link">Shop</a>
+      <a href="#categories" class="nav-link">Categories <svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg></a>
+      <a href="#consultation" class="nav-link">Consultation</a>
+      <a href="#energy" class="nav-link">About Us</a>
+      <a href="#journey" class="nav-link">Blog</a>
+      <a href="#footer" class="nav-link">Contact Us</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      </button>
+      <button class="icon-btn" aria-label="Account">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5c1.4-3.4 4.2-5 7.5-5s6.1 1.6 7.5 5"/></svg>
+      </button>
+      <button class="icon-btn cart-icon-btn" aria-label="Cart, 0 items">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="9.5" cy="19.5" r="1.6"/><circle cx="17.5" cy="19.5" r="1.6"/><path d="M3 4h2.4l2.4 11h9.7l2.3-8H6.1"/></svg>
+        <span class="cart-badge" aria-hidden="true">0</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- mobile drawer -->
+<div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <nav class="drawer-panel" aria-label="Mobile navigation">
+    <img src="images/logo-light.png" alt="ADYS AstroJourney" class="drawer-logo">
+    <a href="#" class="drawer-link active">Home</a>
+    <a href="#featured" class="drawer-link">Shop</a>
+    <a href="#categories" class="drawer-link">Categories</a>
+    <a href="#consultation" class="drawer-link">Consultation</a>
+    <a href="#energy" class="drawer-link">About Us</a>
+    <a href="#journey" class="drawer-link">Blog</a>
+    <a href="#footer" class="drawer-link">Contact Us</a>
+    <a href="#consultation" class="btn btn-primary drawer-cta">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" class="btn-ic"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+      Book Consultation
+    </a>
+  </nav>
+</div>
+
+<main>
+
+<!-- ═══════════ 03 · HERO ═══════════ -->
+<section class="hero">
+  <canvas id="starCanvas" class="star-canvas" aria-hidden="true"></canvas>
+  <div class="hero-ambient amb-1" aria-hidden="true"></div>
+  <div class="hero-ambient amb-2" aria-hidden="true"></div>
+
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="script-accent reveal">Welcome to</span>
+      <h1 class="hero-title">
+        <span class="ht-lime reveal d1">ADYS</span>
+        <span class="ht-white reveal d2">ASTROJOURNEY</span>
+      </h1>
+      <div class="hero-ribbon reveal d3"><span>HEALING&nbsp; PEOPLE'S&nbsp; LIVES</span></div>
+      <p class="hero-sub reveal d3">Discover the power of natural crystals and personalized astrology guidance. Shop authentic crystals and book consultations to bring balance, positivity and growth into your life.</p>
+      <div class="hero-ctas reveal d4">
+        <a href="#featured" class="btn btn-primary btn-lg">
+          Shop Crystals
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" class="btn-ic"><circle cx="9.5" cy="19.5" r="1.6"/><circle cx="17.5" cy="19.5" r="1.6"/><path d="M3 4h2.4l2.4 11h9.7l2.3-8H6.1"/></svg>
+        </a>
+        <a href="#consultation" class="btn btn-secondary btn-lg">
+          Book Consultation
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" class="btn-ic"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+        </a>
+      </div>
+      <ul class="hero-trust">
+        <li class="reveal d4">
+          <span class="trust-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3l3 4-3 13-3-13 3-4z"/><path d="M9 7h6M5.5 9l2 3.5M18.5 9l-2 3.5"/></svg></span>
+          <span class="trust-txt"><strong>100% Authentic</strong>Crystals</span>
+        </li>
+        <li class="reveal d5">
+          <span class="trust-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="4" y="10" width="16" height="10" rx="2.5"/><path d="M8 10V7.5a4 4 0 0 1 8 0V10"/></svg></span>
+          <span class="trust-txt"><strong>Secure</strong>Payments</span>
+        </li>
+        <li class="reveal d6">
+          <span class="trust-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="9" r="3.6"/><path d="M3.5 19.5c1-2.7 3-4.2 5.5-4.2s4.5 1.5 5.5 4.2M15.5 4.5c2.4.5 4 2.5 4 5s-1.6 4.5-4 5"/></svg></span>
+          <span class="trust-txt"><strong>Expert</strong>Guidance</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="hero-art reveal-scale">
+      <div class="hero-ring" aria-hidden="true">
+        <svg viewBox="0 0 600 600">
+          <g fill="none" stroke="currentColor" stroke-width=".9">
+            <circle cx="300" cy="300" r="292"/><circle cx="300" cy="300" r="252"/><circle cx="300" cy="300" r="190"/>
+            <g id="heroSpokes"></g>
+          </g>
+        </svg>
+      </div>
+      <figure class="hero-art-frame float-slow">
+        <img src="images/dark-hero.jpg" alt="Natural healing crystals — amethyst, rose quartz, clear quartz and green aventurine on a stone base with a glowing zodiac circle" class="hero-art-img" fetchpriority="high">
+      </figure>
+      <div class="trust-badge float-b" aria-hidden="true">
+        <svg viewBox="0 0 120 120" class="tb-rings"><circle cx="60" cy="60" r="57" fill="none" stroke="rgba(195,41,214,.65)" stroke-width="1.6"/><circle cx="60" cy="60" r="50" fill="none" stroke="rgba(168,240,0,.75)" stroke-width="1.2" stroke-dasharray="4 5"/></svg>
+        <span>TRUSTED BY<br>THOUSANDS<br>OF HAPPY<br>CLIENTS</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 04 · CONSULTATION BANNER ═══════════ -->
+<section class="section-pad" id="consultation">
+  <div class="container">
+    <div class="consult-banner reveal">
+      <svg class="consult-deco" viewBox="0 0 200 200" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-width="1">
+          <path d="M118 60a38 38 0 1 0 26 65 44 44 0 1 1-26-65z"/>
+          <path d="M150 40l2.6 8 8 2.6-8 2.6-2.6 8-2.6-8-8-2.6 8-2.6zM168 92l1.8 5.4 5.4 1.8-5.4 1.8-1.8 5.4-1.8-5.4-5.4-1.8 5.4-1.8z" fill="currentColor" stroke="none"/>
+          <circle cx="120" cy="105" r="60" opacity=".4"/>
+        </g>
+      </svg>
+      <div class="consult-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/><circle cx="15.5" cy="15.5" r="3.6"/><path d="M15.5 13.8v1.7l1.2 1.2"/></svg>
+      </div>
+      <div class="consult-copy">
+        <h2>Book Your Astrology Consultation</h2>
+        <ul class="consult-details">
+          <li><span class="dot-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8.5"/><path d="M12 8v4.2l2.8 1.7"/></svg></span>20 Minutes Session</li>
+          <li><span class="dot-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="5.5" width="16" height="14.5" rx="2.5"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/></svg></span>Monday – Friday</li>
+          <li><span class="dot-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3.5a7.4 7.4 0 1 0 8.5 8.5A9.2 9.2 0 1 1 12 3.5z"/></svg></span>8:00 PM – 10:00 PM</li>
+        </ul>
+      </div>
+      <div class="consult-side">
+        <p>Get personalized guidance from our experienced astrologers.</p>
+        <a href="#" class="btn btn-primary">
+          Book Now
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" class="btn-ic"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+        </a>
+        <span class="consult-note">Limited Slots Available!</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 05 · CATEGORIES ═══════════ -->
+<section class="section-pad" id="categories">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2 class="section-title">Shop by <span class="script-lime">Categories</span> <span class="spark">✦</span></h2>
+    </div>
+
+    <div class="category-shell reveal">
+      <button class="round-arrow cat-prev" aria-label="Scroll categories left"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <div class="category-row" id="categoryRow">
+        <a href="#" class="category-item">
+          <span class="cat-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 21l-4-9 4-6 3 4 1-7 3 5 5 4-4 9H8z"/><path d="M8 21l3-11M16 21l-1-9"/></svg></span>
+          <span class="cat-name">Crystals</span>
+        </a>
+        <a href="#" class="category-item">
+          <span class="cat-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="4" r="1.5"/><circle cx="18.9" cy="8" r="1.5"/><circle cx="18.9" cy="16" r="1.5"/><circle cx="12" cy="20" r="1.5"/><circle cx="5.1" cy="16" r="1.5"/><circle cx="5.1" cy="8" r="1.5"/></svg></span>
+          <span class="cat-name">Bracelets</span>
+        </a>
+        <a href="#" class="category-item">
+          <span class="cat-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l9 17H3l9-17z"/><path d="M12 3v17M7.5 11.5L12 14l4.5-2.5"/></svg></span>
+          <span class="cat-name">Pyramids</span>
+        </a>
+        <a href="#" class="category-item">
+          <span class="cat-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="9" r="4.2"/><circle cx="16" cy="10.5" r="3.4"/><circle cx="11.5" cy="16.5" r="3.6"/></svg></span>
+          <span class="cat-name">Tumbled Stones</span>
+        </a>
+        <a href="#" class="category-item">
+          <span class="cat-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="13" r="7"/><path d="M12 6V3M12 13l-3-3M12 13l3 2M7 8.5l-1.5-1M17 8.5l1.5-1"/><circle cx="12" cy="13" r="2.6"/></svg></span>
+          <span class="cat-name">Rudraksha</span>
+        </a>
+        <a href="#" class="category-item">
+          <span class="cat-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 18L18 6M14.5 4.5l5 5M4.5 14.5l5 5"/><circle cx="19" cy="5" r="2"/><circle cx="5" cy="19" r="2"/></svg></span>
+          <span class="cat-name">Healing Tools</span>
+        </a>
+        <a href="#" class="category-item">
+          <span class="cat-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5"/></svg></span>
+          <span class="cat-name">All Categories</span>
+        </a>
+      </div>
+      <button class="round-arrow cat-next" aria-label="Scroll categories right"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 5l7 7-7 7"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 06 · FEATURED CRYSTALS ═══════════ -->
+<section class="section-pad" id="featured">
+  <div class="container">
+    <div class="featured-head reveal">
+      <h2 class="section-title"><span class="spark-side">✧ ✦</span> Featured Crystals <span class="spark-side">✦ ✧</span></h2>
+      <a href="#" class="ghost-link">View All Products <span class="arrow">→</span></a>
+    </div>
+
+    <div class="product-strip-wrap">
+      <button class="round-arrow prod-prev" aria-label="Scroll products left"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <div class="product-grid" id="productGrid">
+
+        <article class="product-card reveal">
+          <div class="product-media">
+            <img src="images/dp-amethyst.jpg" alt="Amethyst Cluster crystal" loading="lazy">
+            <span class="badge-new">NEW</span>
+            <button class="wish-btn" aria-label="Add Amethyst Cluster to wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20.5S3.5 15 3.5 9.3A4.8 4.8 0 0 1 12 6.4a4.8 4.8 0 0 1 8.5 2.9C20.5 15 12 20.5 12 20.5z"/></svg></button>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Amethyst Cluster</h3>
+            <p class="product-price">₹1,499</p>
+            <div class="rating" aria-label="Rated 5 out of 5">★★★★★</div>
+            <button class="btn btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card reveal d1">
+          <div class="product-media">
+            <img src="images/dp-rosesphere.jpg" alt="Rose Quartz Sphere crystal" loading="lazy">
+            <span class="badge-new">NEW</span>
+            <button class="wish-btn" aria-label="Add Rose Quartz Sphere to wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20.5S3.5 15 3.5 9.3A4.8 4.8 0 0 1 12 6.4a4.8 4.8 0 0 1 8.5 2.9C20.5 15 12 20.5 12 20.5z"/></svg></button>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Rose Quartz Sphere</h3>
+            <p class="product-price">₹1,199</p>
+            <div class="rating" aria-label="Rated 5 out of 5">★★★★★</div>
+            <button class="btn btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card reveal d2">
+          <div class="product-media">
+            <img src="images/dp-citrine.jpg" alt="Citrine Point crystal" loading="lazy">
+            <span class="badge-new">NEW</span>
+            <button class="wish-btn" aria-label="Add Citrine Point to wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20.5S3.5 15 3.5 9.3A4.8 4.8 0 0 1 12 6.4a4.8 4.8 0 0 1 8.5 2.9C20.5 15 12 20.5 12 20.5z"/></svg></button>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Citrine Point</h3>
+            <p class="product-price">₹999</p>
+            <div class="rating" aria-label="Rated 5 out of 5">★★★★★</div>
+            <button class="btn btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card reveal d3">
+          <div class="product-media">
+            <img src="images/dp-aventurine.jpg" alt="Green Aventurine stone" loading="lazy">
+            <span class="badge-new">NEW</span>
+            <button class="wish-btn" aria-label="Add Green Aventurine to wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20.5S3.5 15 3.5 9.3A4.8 4.8 0 0 1 12 6.4a4.8 4.8 0 0 1 8.5 2.9C20.5 15 12 20.5 12 20.5z"/></svg></button>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Green Aventurine</h3>
+            <p class="product-price">₹899</p>
+            <div class="rating" aria-label="Rated 5 out of 5">★★★★★</div>
+            <button class="btn btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card reveal d4">
+          <div class="product-media">
+            <img src="images/dp-clearquartz.jpg" alt="Clear Quartz crystal cluster" loading="lazy">
+            <span class="badge-new">NEW</span>
+            <button class="wish-btn" aria-label="Add Clear Quartz to wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20.5S3.5 15 3.5 9.3A4.8 4.8 0 0 1 12 6.4a4.8 4.8 0 0 1 8.5 2.9C20.5 15 12 20.5 12 20.5z"/></svg></button>
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Clear Quartz</h3>
+            <p class="product-price">₹699</p>
+            <div class="rating" aria-label="Rated 5 out of 5">★★★★★</div>
+            <button class="btn btn-cart">Add to Cart</button>
+          </div>
+        </article>
+
+      </div>
+      <button class="round-arrow prod-next" aria-label="Scroll products right"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 5l7 7-7 7"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 07 · BENEFITS ═══════════ -->
+<section class="section-pad">
+  <div class="container">
+    <div class="benefit-strip reveal">
+      <div class="benefit">
+        <span class="benefit-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 21l-4-9 4-6 3 4 1-7 3 5 5 4-4 9H8z"/><path d="M8 21l3-11M16 21l-1-9"/></svg></span>
+        <div>
+          <h3>Authentic Crystals</h3>
+          <p>100% natural, lab tested and premium quality crystals.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2.5l7.5 3v6c0 5-3.2 8.4-7.5 10-4.3-1.6-7.5-5-7.5-10v-6l7.5-3z"/><path d="M8.8 12l2.3 2.3L15.5 9.8"/></svg></span>
+        <div>
+          <h3>Secure &amp; Safe</h3>
+          <p>Your payments and data are 100% secure with us.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="7.5" r="3.6"/><path d="M5 20c1.2-3.6 3.8-5.4 7-5.4s5.8 1.8 7 5.4"/></svg></span>
+        <div>
+          <h3>Expert Guidance</h3>
+          <p>Get guidance from experienced astrology experts.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="6.5" width="12" height="10" rx="1.5"/><path d="M14.5 10h4l2.5 3.4v3.1h-6.5"/><circle cx="7" cy="18.5" r="1.9"/><circle cx="17.5" cy="18.5" r="1.9"/></svg></span>
+        <div>
+          <h3>Fast Delivery</h3>
+          <p>Quick and safe delivery across India.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 08 · FOLLOW OUR JOURNEY ═══════════ -->
+<section class="section-pad" id="journey">
+  <div class="container">
+    <div class="journey-panel reveal">
+      <div class="journey-info">
+        <h2 class="section-title sm">Follow Our <span class="script-lime">Journey</span> <span class="spark">✦</span></h2>
+        <span class="journey-ig" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
+        </span>
+        <p>Stay connected for crystal updates, tips &amp; daily guidance.</p>
+        <a href="#" class="journey-handle">@adys_astrojourney</a>
+        <a href="#" class="btn btn-primary">Follow Us</a>
+      </div>
+      <div class="journey-gallery" id="journeyGallery">
+        <a href="#" class="j-tile"><img src="images/dp-amethyst.jpg" alt="Amethyst crystals" loading="lazy"><span class="j-hover"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/></svg></span></a>
+        <a href="#" class="j-tile"><img src="images/ig-dark-jewelry.jpg" alt="Crystal jewelry on velvet" loading="lazy"><span class="j-hover"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/></svg></span></a>
+        <a href="#" class="j-tile"><img src="images/dp-rosesphere.jpg" alt="Rose quartz sphere" loading="lazy"><span class="j-hover"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/></svg></span></a>
+        <a href="#" class="j-tile"><img src="images/ig-dark-green.jpg" alt="Green aventurine bracelet" loading="lazy"><span class="j-hover"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/></svg></span></a>
+        <a href="#" class="j-tile"><img src="images/dp-clearquartz.jpg" alt="Clear quartz points" loading="lazy"><span class="j-hover"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/></svg></span></a>
+        <a href="#" class="j-tile"><img src="images/ig-dark-pink.jpg" alt="Pink crystal cluster with candle" loading="lazy"><span class="j-hover"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/></svg></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 09 · BALANCE YOUR ENERGY ═══════════ -->
+<section class="section-pad" id="energy">
+  <div class="container">
+    <div class="energy-panel reveal">
+      <figure class="energy-media">
+        <img src="images/dark-meditate.jpg" alt="Meditating silhouette surrounded by zodiac graphics, crystals and purple energy" loading="lazy">
+      </figure>
+      <div class="energy-content">
+        <h2 class="energy-title">
+          <span class="et-serif">Balance Your Energy.</span>
+          <span class="et-script">Transform Your Life.</span>
+          <span class="spark">✦</span>
+        </h2>
+        <div class="energy-benefits">
+          <div class="e-benefit reveal">
+            <span class="e-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 20S4.5 15 4.5 9.8A4.3 4.3 0 0 1 12 7a4.3 4.3 0 0 1 7.5 2.8C19.5 15 12 20 12 20z"/><path d="M8.5 11.5h2l1-1.8 1.4 3.4 1-1.6h1.6"/></svg></span>
+            <div>
+              <h3>Emotional Balance</h3>
+              <p>Crystals that help calm your mind and heal your heart.</p>
+            </div>
+          </div>
+          <div class="e-benefit reveal d1">
+            <span class="e-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 20c-4 0-6.5-2.2-6.5-5.5C5.5 10.5 9 8.5 12 4c3 4.5 6.5 6.5 6.5 10.5 0 3.3-2.5 5.5-6.5 5.5z"/><path d="M9 14.5c.4 1.8 1.5 2.8 3 3"/></svg></span>
+            <div>
+              <h3>Positive Energy</h3>
+              <p>Attract positivity, abundance and good vibes.</p>
+            </div>
+          </div>
+          <div class="e-benefit reveal d2">
+            <span class="e-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2.5 12S6 5.8 12 5.8 21.5 12 21.5 12 18 18.2 12 18.2 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/><path d="M12 2.8v1.6M12 19.6v1.6"/></svg></span>
+            <div>
+              <h3>Spiritual Growth</h3>
+              <p>Elevate your spirit and connect with your higher self.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 10 · NEWSLETTER ═══════════ -->
+<section class="section-pad" id="newsletter">
+  <div class="container">
+    <div class="newsletter-banner reveal">
+      <svg class="nl-crystal" viewBox="0 0 100 100" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-width="1.2">
+          <path d="M50 8l16 20-16 64-16-64 16-20z"/><path d="M34 28h32M50 8v84"/>
+          <path d="M20 50l4 6-4 16-4-16 4-6z" opacity=".6"/><path d="M82 44l5 8-5 20-5-20 5-8z" opacity=".6"/>
+        </g>
+      </svg>
+      <div class="nl-left">
+        <span class="nl-ic" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 6.5L12 13l8.5-6.5"/></svg>
+        </span>
+        <h2>Stay Updated with Our Latest Offers &amp; Insights</h2>
+      </div>
+      <form class="nl-form" id="newsletterForm">
+        <label class="sr-only" for="nlEmail">Email address</label>
+        <input type="email" id="nlEmail" placeholder="Enter your email address" required>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════ 11 · FOOTER ═══════════ -->
+<footer class="site-footer" id="footer">
+  <svg class="footer-zodiac" viewBox="0 0 500 500" aria-hidden="true">
+    <g fill="none" stroke="currentColor" stroke-width=".7">
+      <circle cx="250" cy="250" r="240"/><circle cx="250" cy="250" r="190"/><circle cx="250" cy="250" r="130"/>
+      <path d="M250 10v480M10 250h480M80 80l340 340M420 80L80 420"/>
+    </g>
+  </svg>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="images/logo-light.png" alt="ADYS AstroJourney" class="footer-logo">
+      <p>Healing People's Lives through Crystals, Astrology and Spiritual Guidance.</p>
+      <div class="footer-social">
+        <a href="#" class="f-social" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="#" class="f-social" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.3-1.5 1.6-1.5h1.3V4.9c-.3 0-1.1-.1-2.1-.1-2.1 0-3.6 1.3-3.6 3.7V11H8.2v3h2.5v7h2.8z"/></svg></a>
+        <a href="#" class="f-social" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.5 8.8H3.7V20h2.8V8.8zM5.1 3.6a1.66 1.66 0 1 0 0 3.3 1.66 1.66 0 0 0 0-3.3zM20.3 13.4c0-3.1-1.7-4.8-4-4.8-1.8 0-2.7 1-3.1 1.7v-1.5H10.4V20h2.8v-5.9c0-1.5.6-2.5 1.9-2.5 1.2 0 1.7.9 1.7 2.5V20h2.8v-6.6z"/></svg></a>
+        <a href="#" class="f-social" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.7-1.2A9 9 0 1 0 12 3zm0 1.7a7.3 7.3 0 1 1-3.9 13.5l-.3-.2-2.8.7.8-2.7-.2-.3A7.3 7.3 0 0 1 12 4.7zm-2.6 3.2c-.2 0-.4 0-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.5 3.9 3.4 1.9.8 2.3.6 2.7.6.4 0 1.4-.5 1.5-1.1.2-.5.2-1 .1-1.1l-.5-.3-1.6-.8c-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.5c-.1-.2 0-.3.1-.5l.4-.5c.1-.2.2-.3.3-.5v-.4L10 8.5c-.2-.4-.4-.4-.6-.4z"/></svg></a>
+      </div>
+    </div>
+
+    <nav class="footer-col" aria-label="Quick links">
+      <h4>Quick Links</h4>
+      <a href="#">Home</a>
+      <a href="#featured">Shop</a>
+      <a href="#categories">Categories</a>
+      <a href="#consultation">Consultation</a>
+      <a href="#energy">About Us</a>
+      <a href="#journey">Blog</a>
+      <a href="#footer">Contact Us</a>
+    </nav>
+
+    <nav class="footer-col" aria-label="Customer care">
+      <h4>Customer Care</h4>
+      <a href="#">My Account</a>
+      <a href="#">Track Order</a>
+      <a href="#">Shipping Policy</a>
+      <a href="#">Return Policy</a>
+      <a href="#">Terms &amp; Conditions</a>
+      <a href="#">Privacy Policy</a>
+    </nav>
+
+    <div class="footer-col footer-contact">
+      <h4>Get in Touch</h4>
+      <a href="tel:+917649133030" class="contact-line">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 4h4l1.5 4.5L8 10a13 13 0 0 0 6 6l1.5-2.5L20 15v4a1.8 1.8 0 0 1-2 1.8A16.8 16.8 0 0 1 3.2 6 1.8 1.8 0 0 1 5 4z"/></svg>
+        +91 76491 33030
+      </a>
+      <a href="mailto:adys.sessions@gmail.com" class="contact-line">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 6.5L12 13l8.5-6.5"/></svg>
+        adys.sessions@gmail.com
+      </a>
+      <span class="contact-line">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s7-6.1 7-11.2A7 7 0 0 0 5 9.8C5 14.9 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.6"/></svg>
+        Addit Bhatnagar, 436, Gomti 1, Lucknow, Uttar Pradesh, India
+      </span>
+    </div>
+  </div>
+
+  <div class="copyright-bar">
+    <div class="container copyright-inner">
+      <span>© 2024 ADYS AstroJourney. All Rights Reserved.</span>
+      <span>Designed with <span class="heart">♥</span> for <strong>Healing People's Lives</strong></span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
